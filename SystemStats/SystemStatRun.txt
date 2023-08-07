@@ -1,0 +1,16 @@
+:: @echo off
+
+REM Run the PowerShell script
+::======================================
+:: powershell.exe -ExecutionPolicy Bypass -File "C:\example\Script\file\path.ps1"
+
+REM Set the path to the output file
+::======================================
+:: set "outputFilePath=C:\example\output\file.txt"
+
+REM Open the file location
+::======================================
+:: explorer /select,"%outputFilePath%"
+
+
+::NOTE: Remove "::" from command lines when ready to use.
